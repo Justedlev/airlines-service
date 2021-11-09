@@ -1,0 +1,8 @@
+2021-11-09 11:14:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO ROLES (1[*],2) VALUES (2, 'ADMIN')"; expected "identifier"; SQL statement:
+insert into roles (1,2) values (2, 'ADMIN') [42001-200]
+2021-11-09 11:32:28 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM AIRCRAFT 
+SELECT[*] * FROM AIRLINES"; SQL statement:
+select * from AIRCRAFT 
+select * from AIRLINES [42000-200]
